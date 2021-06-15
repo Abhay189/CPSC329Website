@@ -6,6 +6,7 @@ body{
 header{
     /* font-family: 'Viaoda Libre',cursive; */
     font-family: 'Merriweather', serif;
+    justify-content: space-between;
     margin: 10px 6vw;
     border-radius: 10px;
     display: flex;
@@ -13,21 +14,26 @@ header{
 }
 
 .topelem{
-    font-size: 2em;
+    font-size: 1.5em;
+    justify-self: center;
     border-width:  0px 1px 0px 1px ;
     border-color: black;
     border-style: solid;
 }
 header > h1{
-    /* font-size: 3em; */
-    /* background-color:cadetblue; */
+    flex-grow: 1;
+    align-self: center;
     text-decoration: none;
     padding: 0px 4vw;
 }
 header >a{
+    flex-grow: 1;
     align-self: center;
     text-decoration: none;
     padding: 0px 4vw;
+}
+.topp{
+    text-align: center;
 }
 
 .Heading{
@@ -81,29 +87,17 @@ header >a{
 }
 
 .Navigator{
-    font-family: 'Viaoda Libre', cursive;
+    font-family: 'Merriweather', serif;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     margin: 20px 6vw;
+    padding: 10px;
     border-radius: 10px;
     align-items: center;
+    background-color: #f4c7ab;
 }
 .Navigator > a{
     text-decoration: none;
 }
 
-footer{
-    font-family: 'Inconsolata', monospace;
-    height: 10vh;
-    margin: 10px 6vw;
-    border-radius: 10px;
-    align-items: center;
-    text-align: center;
-    background-color: #f4c7ab;
-}
-footer > h2{
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
