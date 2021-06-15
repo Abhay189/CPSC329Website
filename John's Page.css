@@ -1,0 +1,109 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    /* font-family: 'Viaoda Libre',cursive; */
+    font-family: 'Merriweather', serif;
+    margin: 10px 6vw;
+    border-radius: 10px;
+    display: flex;
+    background-color: #fff5eb;
+}
+
+.topelem{
+    font-size: 2em;
+    border-width:  0px 1px 0px 1px ;
+    border-color: black;
+    border-style: solid;
+}
+header > h1{
+    /* font-size: 3em; */
+    /* background-color:cadetblue; */
+    text-decoration: none;
+    padding: 0px 4vw;
+}
+header >a{
+    align-self: center;
+    text-decoration: none;
+    padding: 0px 4vw;
+}
+
+.Heading{
+    padding: 10px 0px;
+    margin: 0px 0px 5px 0px;
+    /* font-family: Merriweather; font-size: 24px; font-style: normal; */
+    font-family: 'Lora', serif;
+}
+.ContText{
+    font-family: 'Raleway', sans-serif;
+    /* word-wrap: break-word; */
+}
+.para{
+    text-align: left;
+    margin: 0px;
+    padding: 15px 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.MainContent{
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    margin: 10px 6vw;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #deedf0;
+}
+
+#Content{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+#Content > img{
+    margin: 10px;
+    align-self: center;
+    height: 100%;
+    max-height: 300px;
+    max-width: 400px;
+    transition: transform .4s;
+}
+#Content > h1{
+    align-self: center;
+    width: 50%;
+}
+#Content > img:hover{
+    transform: scale(1.3);
+}
+
+.Navigator{
+    font-family: 'Viaoda Libre', cursive;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 20px 6vw;
+    border-radius: 10px;
+    align-items: center;
+}
+.Navigator > a{
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Inconsolata', monospace;
+    height: 10vh;
+    margin: 10px 6vw;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #f4c7ab;
+}
+footer > h2{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
